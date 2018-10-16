@@ -1,0 +1,46 @@
+.intro { grid-area: intro;
+  background-color: #35BC7A;
+}
+.profile { grid-area: profile;
+  background-color: #FF9E00;
+ }
+.pic { grid-area: pic;
+  width: 30%;
+}
+.exp { grid-area: exp;
+  background-color: #1E8BC4;
+ }
+.edu { grid-area: edu;
+  background-color: #F15A49;
+ }
+.blog { grid-area: blog;
+  background-color: #35BC7A;
+}
+.menu { grid-area: menu;
+  background-color: #F86925;
+ }
+.contact { grid-area: contact;
+  background-color: #1E8BC4;
+
+ }
+.portfolio { grid-area: portfolio;
+  background-color: #F86925;
+
+ }
+
+.grid_containter{
+  display: grid;
+  grid-template-areas:
+    'intro intro profile pic pic'
+    'exp edu blog pic pic'
+    'menu contact portfolio pic pic';
+  background-color: grey;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: maroon;
+  text-align: center;
+  padding: 10px;
+
+}
